@@ -47,7 +47,7 @@ if __name__ =='__main__':
     try:
     
         user = os.getenv("USER")
-        data_dir = "/home"
+        data_dir = "/users"
     
         args = parse_arguments()
         rmin = args.rmin
