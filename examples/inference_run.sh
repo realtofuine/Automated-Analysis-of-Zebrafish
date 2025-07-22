@@ -5,7 +5,7 @@
 #SBATCH --mem 24G
 #SBATCH -J Zebrafish_Analysis
 #SBATCH -D /users/rrai8/zebrafish_analysis/Automated-Analysis-of-Zebrafish/examples
-#SBATCH -o ../output/zebrafish-%j.out
+#SBATCH -o zebrafish-%j.out
 #SBATCH -t 1:00:00
 # SBATCH -e ../output/zebrafish-%j.err
 
