@@ -2,12 +2,10 @@ import os
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' 
 
-import http.client
-import time
+
 
 import numpy as np
 import pandas as pd
-import requests
 import tensorflow.compat.v1 as tf
 from read_data import Data
 from video_analysis import analysis

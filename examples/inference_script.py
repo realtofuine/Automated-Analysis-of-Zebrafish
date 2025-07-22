@@ -1,10 +1,7 @@
 import argparse
-import http.client
-import json
 import os
 import pathlib
 import sys
-from time import sleep
 
 import numpy as np
 import pandas as pd
