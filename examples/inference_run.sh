@@ -4,10 +4,9 @@
 #SBATCH -p gpu --gres=gpu:1
 #SBATCH --mem 24G
 #SBATCH -J Zebrafish_Analysis
-#SBATCH -D /users/rrai8/zebrafish_analysis/Automated-Analysis-of-Zebrafish/examples
 #SBATCH -o zebrafish-%j.out
 #SBATCH -t 1:00:00
-# SBATCH -e ../output/zebrafish-%j.err
+# SBATCH -e zebrafish-%j.err
 
 function fix_names(){
 
