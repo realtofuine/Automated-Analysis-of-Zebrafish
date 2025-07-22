@@ -11,7 +11,7 @@
 function fix_names(){
 
 	j=1
-	DATA_DIR="/gpfs/data/rcretonp/experiment_data/${USER}/$3"
+	DATA_DIR="$3"
 	for ((i = $1; i <= $2; i++)); do
   		old=$(printf "${DATA_DIR}/IMG_%04d.JPG" "$i") #04 pad to length of 4
   		new=$(printf "${DATA_DIR}/IMG_%04d.JPG" "$j")
